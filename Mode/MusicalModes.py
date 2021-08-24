@@ -219,7 +219,7 @@ def guess_the_mode():
       for i in range(num_mode):
         print(i + 1, list(modes.values())[i] if i != num_mode - 1 else list(modes.values())[i].upper())
 
-      print("If you don't understand why this works, read this: TO BE WRITTEN")
+      print("If you don't understand why this works, read the README in this directory/folder.")
 
     else:
       raise IllegalScaleException("No mode exists with the gaps:\n" + gaps)
